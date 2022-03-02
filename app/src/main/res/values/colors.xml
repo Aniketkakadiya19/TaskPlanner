@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">@android:color/holo_green_dark</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="darkTextColor">#020000</color>
+    <color name="contentTextColor">#020000</color>
+    <color name="register_bk_color">#ff669900</color>
+    <color name="register_bk_color_dark">#E0FBAB</color>
+    <color name="login_bk_color">#fff</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#ff669900</color>
+
+    <color name="colorPrimaryLogin">#FFFFFF</color>
+    <color name="colorPrimaryDarkLogin">#000</color>
+    <color name="colorAccentLogin">#ff669900</color>
+    <color name="themeColor">#ff669900</color>
+
+</resources>

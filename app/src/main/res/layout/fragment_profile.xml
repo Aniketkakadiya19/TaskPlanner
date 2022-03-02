@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textColor="#4B4B4B"
+            android:textSize="26dp"></TextView>
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/menu"></ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="18dp"
+
+        android:background="@drawable/profilebg">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/man"></ImageView>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/profile"
+            android:text="Aniket Kakadiya"
+            android:textColor="#ffff"
+            android:textSize="22dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/profile"
+            android:text="0815 *** **"
+            android:textColor="#ffff"
+            android:textSize="16dp"></TextView>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_white"></ImageView>
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="GENERAL"
+        android:textColor="#4B4B4B"
+        android:textSize="18dp"></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/icon_help"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/support">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/icon_help"
+            android:text="Help,Support and FAQs"
+            android:textColor="#202020"
+            android:textSize="20dp"></TextView>
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_dark"></ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/logoutBtninui"
+        android:layout_width="match_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/icon_sett"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/settings" />
+
+        <TextView
+            android:id="@+id/logoutbtntxtui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/icon_sett"
+            android:clickable="true"
+            android:text="Log out"
+            android:textColor="#202020"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_dark" />
+    </RelativeLayout>
+
+
+</LinearLayout>
